@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.86a4b152.css",
+    "main.js": "/personal/static/js/main.37c1649e.js",
+    "static/media/ItsMe.JPG": "/personal/static/media/ItsMe.2f59011a335631d5e4dc.JPG",
+    "static/media/Recipist.PNG": "/personal/static/media/Recipist.4c94130f7862c950a03b.PNG",
+    "static/media/me.png": "/personal/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/NIH.png": "/personal/static/media/NIH.9a67dd22a2bc63a5b9cb.png",
+    "static/media/me-about.jpg": "/personal/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/IMG_5627-removebg-preview.png": "/personal/static/media/IMG_5627-removebg-preview.782e2da736519137bd38.png",
+    "static/media/portfolio5.png": "/personal/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio6.jpg": "/personal/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/Riley-Morris-CV.pdf": "/personal/static/media/Riley-Morris-CV.c658c67f2ee7072df0ce.pdf",
+    "static/media/portfolio4.jpg": "/personal/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/graphvis.png": "/personal/static/media/graphvis.c215a85d07f526b548f9.png",
+    "index.html": "/personal/index.html",
+    "main.86a4b152.css.map": "/personal/static/css/main.86a4b152.css.map",
+    "main.37c1649e.js.map": "/personal/static/js/main.37c1649e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86a4b152.css",
+    "static/js/main.37c1649e.js"
+  ]
+}
