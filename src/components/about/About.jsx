@@ -26,7 +26,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ Years Working Experience</small>
+              <small>7+ Years Experience</small>
 
             </article>
             {/* <article className='about__card'>
@@ -49,7 +49,7 @@ const About = () => {
           </p>
           <p>I'm passionate about using technology to create solutions to real world problems. 
             I love learning new technologies and taking on challenging projects. 
-            In my spare time, I enjoy coding, playing video games, and exploring the outdoors.</p>
+            My pastimes include: coding, hiking, basketball, and video games.</p>
           {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
 
         </div>
