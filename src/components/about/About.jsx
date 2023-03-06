@@ -45,7 +45,7 @@ const About = () => {
           <p>
           I'm Riley Morris, a software engineer based in Canada. 
           I specialize in developing web applications and back-end systems.
-          I've been working in the software development industry for over 7 years and have built a wide range of applications for different industries.
+          I have over over 7 years of software development experience and have built a wide range of applications for different industries.
           </p>
           <p>I'm passionate about using technology to create solutions to real world problems. 
             I love learning new technologies and taking on challenging projects. 
