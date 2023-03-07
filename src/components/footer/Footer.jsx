@@ -17,11 +17,11 @@ const Footer = () => {
         <li><a href="">Contact</a></li>
       </ul>
 
-      <div className='footer__socials'>
-        <a href="https://www.facebook.com/riley.morris.92"> <FaFacebookF /></a>
-        <a href="https://www.instagram.com/itsrieguy/"> <FiInstagram /></a>
+      {/* <div className='footer__socials'> */}
+        {/* <a href="https://www.facebook.com/riley.morris.92"> <FaFacebookF /></a>
+        <a href="https://www.instagram.com/itsrieguy/"> <FiInstagram /></a> */}
         {/* <a href="https://twitter.com"><IoLogoTwitter /></a> */}
-      </div>
+      {/* </div> */}
 
       <div className='footer__copyright'>
         <small> &copy; Riley Morris. All rights reserved</small>

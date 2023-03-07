@@ -26,7 +26,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>7+ Years Experience</small>
+              <small>4+ Years Experience</small>
 
             </article>
             {/* <article className='about__card'>
@@ -45,7 +45,7 @@ const About = () => {
           <p>
           I'm Riley Morris, a software engineer based in Canada. 
           I specialize in developing web applications and back-end systems.
-          I have over over 7 years of software development experience and have built a wide range of applications for different industries.
+          I have over over 4 years of software development experience and worked on software applications and data workflows within healthtech and high frequency trading.
           </p>
           <p>I'm passionate about using technology to create solutions to real world problems. 
             I love learning new technologies and taking on challenging projects. 
