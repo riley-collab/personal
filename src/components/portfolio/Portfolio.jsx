@@ -3,9 +3,8 @@ import './portfolio.css'
 import NIH from '../../assets/NIH.png'
 import graphVis from '../../assets/graphvis.png'
 import recipist from '../../assets/Recipist.PNG'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import MovieRateRrr from '../../assets/MovieRateRrr.png'
+import server from '../../assets/server.png'
 
 const data = [
   { 
@@ -26,9 +25,24 @@ const data = [
     id: 3,
     image: recipist,
     title: 'Recipist',
-    github: 'https://github.com'
+    github: 'https://github.com/riley-collab/Recipist'
     // demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data=visualization'
-  }
+  },
+  {
+    id: 4,
+    image: MovieRateRrr,
+    title: 'MovieRateRrr',
+    github: 'https://github.com/SanofiRileyMorris/MovieRatingReactApp'
+    // demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data=visualization'
+  },
+  {
+    id: 5,
+    image: server,
+    title: 'MovieRateRrrServer',
+    github: 'https://github.com/SanofiRileyMorris/NESTJS'
+    // demo: 'https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data=visualization'
+  },
+  
 ]
 
 
@@ -41,7 +55,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({ id, image, title, github, demo }) => {
+          data.map(({ id, image, title, github }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>
@@ -49,7 +63,6 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  {/* <a href={github} className='btn' target='_blank'>Github</a> */}
                   <a href={github} className='btn btn-primary' target='_blank'>Github</a>
                   </div>
               </article>

@@ -8,12 +8,10 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 
 
 const About = () => {
+
+  const yearsOfExp = new Date().getFullYear() - 2019;
   return (
     <section id='about'>
-
-      {/* <h5>Get To Know</h5>
-      <h2>About Me</h2> */}
-
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
@@ -26,15 +24,9 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>4+ Years Experience</small>
+              <small>{yearsOfExp}+ Years Experience</small>
 
             </article>
-            {/* <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5> 
-              <small>300+ Worldwide</small>
-
-            </article> */}
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
@@ -45,13 +37,11 @@ const About = () => {
           <p>
           I'm Riley Morris, a software engineer based in Canada. 
           I specialize in developing web applications and back-end systems.
-          I have over over 4 years of software development experience and worked on software applications and data workflows within healthtech and high frequency trading.
+          I have over over {yearsOfExp} years of software development experience and worked on software applications and data workflows within healthtech and high frequency trading. Most recently I've created solutions for Sanofi's AI Center of Excellence focusing on creating ML and AI Solutions. 
           </p>
           <p>I'm passionate about using technology to create solutions to real world problems. 
             I love learning new technologies and taking on challenging projects. 
-            My pastimes include: coding, hiking, basketball, and video games.</p>
-          {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
-
+            My interests outside of work include: coding, hiking, cars, racing, volleyball, basketball, and video games.</p>
         </div>
 
       </div>
