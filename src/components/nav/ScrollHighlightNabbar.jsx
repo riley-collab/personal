@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-// import "./ScrollHighlightNabbar.css";
 
 /**
  * @param {number} currentPosition Current Scroll position
