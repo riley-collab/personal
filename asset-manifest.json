@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.86a4b152.css",
-    "main.js": "/personal/static/js/main.f0d3163a.js",
+    "main.css": "/personal/static/css/main.c9e81275.css",
+    "main.js": "/personal/static/js/main.bc1213da.js",
     "static/media/ItsMe.JPG": "/personal/static/media/ItsMe.2f59011a335631d5e4dc.JPG",
-    "static/media/me.png": "/personal/static/media/me.821ecddcb9953b46bf75.png",
-    "static/media/me-about.jpg": "/personal/static/media/me-about.fb4452e7f286d3636ef9.jpg",
     "static/media/NIH.png": "/personal/static/media/NIH.1375599bc6d6c1ab8ea5.png",
-    "static/media/IMG_5627-removebg-preview.png": "/personal/static/media/IMG_5627-removebg-preview.782e2da736519137bd38.png",
     "static/media/Recipist.PNG": "/personal/static/media/Recipist.637f02662156428b3c52.PNG",
-    "static/media/portfolio5.png": "/personal/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
-    "static/media/portfolio6.jpg": "/personal/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/Riley-Morris-CV.pdf": "/personal/static/media/Riley-Morris-CV.c658c67f2ee7072df0ce.pdf",
-    "static/media/portfolio4.jpg": "/personal/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/Riley-Morris-CV.pdf": "/personal/static/media/Riley-Morris-CV.b5ce1514fc34fbf19e4d.pdf",
     "static/media/graphvis.png": "/personal/static/media/graphvis.998d9914f38eb2e78193.png",
+    "static/media/server.png": "/personal/static/media/server.caf9688d3e6a1ea0f819.png",
+    "static/media/MovieRateRrr.png": "/personal/static/media/MovieRateRrr.e04c1ef4533ad41a067d.png",
     "index.html": "/personal/index.html",
-    "main.86a4b152.css.map": "/personal/static/css/main.86a4b152.css.map",
-    "main.f0d3163a.js.map": "/personal/static/js/main.f0d3163a.js.map"
+    "main.c9e81275.css.map": "/personal/static/css/main.c9e81275.css.map",
+    "main.bc1213da.js.map": "/personal/static/js/main.bc1213da.js.map"
   },
   "entrypoints": [
-    "static/css/main.86a4b152.css",
-    "static/js/main.f0d3163a.js"
+    "static/css/main.c9e81275.css",
+    "static/js/main.bc1213da.js"
   ]
 }
