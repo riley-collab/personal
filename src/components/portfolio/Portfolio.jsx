@@ -5,6 +5,7 @@ import graphVis from '../../assets/graphvis.png'
 import recipist from '../../assets/Recipist.PNG'
 import MovieRateRrr from '../../assets/MovieRateRrr.png'
 import server from '../../assets/server.png'
+import RecipeAi from '../../assets/RecipeAi.png'
 
 const data = [
   { 
@@ -37,7 +38,12 @@ const data = [
     title: 'MovieRateRrrServer',
     github: 'https://github.com/SanofiRileyMorris/NESTJS'
   },
-  
+  {
+    id: 6,
+    image: RecipeAi,
+    title: 'RecipeAi',
+    github: 'https://github.com/riley-collab/ai-recipe-generator'
+  },
 ]
 
 

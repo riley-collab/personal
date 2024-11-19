@@ -13,7 +13,7 @@ const Experience = () => {
   ]
 
   const cloudExperienceList = [ 
-    "AWS Cloud Practioner", "AWS Developing Serverless Solutions", "Snowflake", "Terraform"
+    "AWS Cloud Practioner", "AWS Developer", "Snowflake", "Terraform", "Kubernetes"
   ]
   return (
     <section id='experience'>
@@ -62,7 +62,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-
     </section>
   )
 }
