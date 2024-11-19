@@ -44,13 +44,13 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>riley.morris@alumni.utoronto.ca</h5>
-            <a href="mailto:riley.morris@mail.utoronto.ca" target="_blank">Send a message</a>
+            <a href="mailto:riley.morris@mail.utoronto.ca" target="_blank" rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>Riley Morris</h5>
-            <a href="https://api.whatsapp.com/send?phone=6474690777" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=6474690777" target="_blank"  rel='noreferrer'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
