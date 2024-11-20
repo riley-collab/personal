@@ -1,5 +1,7 @@
-import React from 'react'
-import './portfolio.css'
+import React from "react";
+import Slider from "react-slick";
+import { Box } from "@mui/material";
+import "./carousel.css";
 import NIH from '../../assets/NIH.png'
 import graphVis from '../../assets/graphvis.png'
 import recipist from '../../assets/Recipist.png'
@@ -46,30 +48,46 @@ const data = [
   },
 ]
 
+const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+  };
 
-const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h2>Recent Projects</h2>
-      <div className='container portfolio__container'>
-        {
-          data.map(({ id, image, title, github }) => {
-            return (
-              <article key={id} className='portfolio__item'>
-                <div className='portfolio__item-image'>
-                  <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <div className='portfolio__item-cta'>
-                  <a href={github} className='btn btn-primary' target='_blank' rel="noreferrer">Github</a>
-                  </div> 
-              </article>
-            )
-          })
-        }
-      </div>
+      <Box sx={{ width: "30%", margin: "auto", mt: 4 }}>
+        <Slider {...settings}>
+          {data.map(({ id, image, title, github }) => (
+            <article key={id} className="carousel__item">
+              <div className="carousel__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="carousel__item-cta">
+                <a
+                  href={github}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </article>
+          ))}
+        </Slider>
+      </Box>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Carousel;
