@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.c9e81275.css",
-    "main.js": "/personal/static/js/main.4b406e75.js",
+    "main.css": "/personal/static/css/main.e21a369c.css",
+    "main.js": "/personal/static/js/main.c619f1df.js",
     "static/media/ItsMe.JPG": "/personal/static/media/ItsMe.2f59011a335631d5e4dc.JPG",
     "static/media/NIH.png": "/personal/static/media/NIH.1375599bc6d6c1ab8ea5.png",
-    "static/media/Recipist.PNG": "/personal/static/media/Recipist.637f02662156428b3c52.PNG",
+    "static/media/Recipist.png": "/personal/static/media/Recipist.d2ec67cadadecf0dc6af.png",
     "static/media/Riley-Morris-CV.pdf": "/personal/static/media/Riley-Morris-CV.b5ce1514fc34fbf19e4d.pdf",
     "static/media/graphvis.png": "/personal/static/media/graphvis.998d9914f38eb2e78193.png",
     "static/media/RecipeAi.png": "/personal/static/media/RecipeAi.5348ffb64a101139aa8a.png",
     "static/media/server.png": "/personal/static/media/server.caf9688d3e6a1ea0f819.png",
     "static/media/MovieRateRrr.png": "/personal/static/media/MovieRateRrr.e04c1ef4533ad41a067d.png",
+    "static/media/slick.svg": "/personal/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/personal/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/personal/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/personal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/personal/index.html",
-    "main.c9e81275.css.map": "/personal/static/css/main.c9e81275.css.map",
-    "main.4b406e75.js.map": "/personal/static/js/main.4b406e75.js.map"
+    "main.e21a369c.css.map": "/personal/static/css/main.e21a369c.css.map",
+    "main.c619f1df.js.map": "/personal/static/js/main.c619f1df.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9e81275.css",
-    "static/js/main.4b406e75.js"
+    "static/css/main.e21a369c.css",
+    "static/js/main.c619f1df.js"
   ]
 }
