@@ -1,75 +1,79 @@
-import React from 'react'
-import './portfolio.css'
-import NIH from '../../assets/NIH.png'
-import graphVis from '../../assets/graphvis.png'
-import recipist from '../../assets/Recipist.png'
-import MovieRateRrr from '../../assets/MovieRateRrr.png'
-import server from '../../assets/server.png'
-import RecipeAi from '../../assets/RecipeAi.png'
+import React from 'react';
+import './portfolio.css';
+import NIH from '../../assets/NIH.png';
+import graphVis from '../../assets/graphvis.png';
+import recipist from '../../assets/Recipist.png';
+import MovieRateRrr from '../../assets/MovieRateRrr.png';
+import server from '../../assets/server.png';
+import RecipeAi from '../../assets/RecipeAi.png';
 
 const data = [
-  { 
+  {
     id: 1,
     image: NIH,
     title: 'NIH-Chest-X-rays-Classifier',
-    github: 'https://github.com/riley-collab/aps360project'
+    github: 'https://github.com/riley-collab/aps360project',
   },
   {
     id: 2,
     image: graphVis,
     title: 'Relationship Library',
-    github: 'https://github.com/riley-collab/js-library-morrisr9'
+    github: 'https://github.com/riley-collab/js-library-morrisr9',
   },
   {
     id: 3,
     image: recipist,
     title: 'Recipist',
-    github: 'https://github.com/riley-collab/Recipist'
+    github: 'https://github.com/riley-collab/Recipist',
   },
   {
     id: 4,
     image: MovieRateRrr,
     title: 'MovieRateRrr',
-    github: 'https://github.com/SanofiRileyMorris/MovieRatingReactApp'
+    github: 'https://github.com/SanofiRileyMorris/MovieRatingReactApp',
   },
   {
     id: 5,
     image: server,
     title: 'MovieRateRrrServer',
-    github: 'https://github.com/SanofiRileyMorris/NESTJS'
+    github: 'https://github.com/SanofiRileyMorris/NESTJS',
   },
   {
     id: 6,
     image: RecipeAi,
     title: 'RecipeAi',
-    github: 'https://github.com/riley-collab/ai-recipe-generator'
+    github: 'https://github.com/riley-collab/ai-recipe-generator',
   },
-]
-
+];
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id="portfolio">
       <h2>Recent Projects</h2>
-      <div className='container portfolio__container'>
-        {
-          data.map(({ id, image, title, github }) => {
-            return (
-              <article key={id} className='portfolio__item'>
-                <div className='portfolio__item-image'>
-                  <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <div className='portfolio__item-cta'>
-                  <a href={github} className='btn btn-primary' target='_blank' rel="noreferrer">Github</a>
-                  </div> 
-              </article>
-            )
-          })
-        }
+      <div className="container portfolio__container">
+        {data.map(({ id, image, title, github }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a
+                  href={github}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;

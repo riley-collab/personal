@@ -1,71 +1,95 @@
-import React from 'react'
-import './experience.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import React from 'react';
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
-
   const frontendExperienceList = [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "ReactBoostrap", "jQuery", "Tailwind", "Tanstack Query", "Atom", "MaterialUI", "Supabase", "Jest"
-  ]
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'ReactBoostrap',
+    'jQuery',
+    'Tailwind',
+    'Tanstack Query',
+    'Atom',
+    'MaterialUI',
+    'Supabase',
+    'Jest',
+  ];
 
   const backendExperienceList = [
-    "NodeJS", "NextJS", "MongoDB", "C", "C++",  "SQL", "Python", "Swift", "Java", "Axios", "FastApi", "Prisma", "ElasticSearch"
-  ]
+    'NodeJS',
+    'NextJS',
+    'MongoDB',
+    'C',
+    'C++',
+    'SQL',
+    'Python',
+    'Swift',
+    'Java',
+    'Axios',
+    'FastApi',
+    'Prisma',
+    'ElasticSearch',
+  ];
 
-  const cloudExperienceList = [ 
-    "AWS", "Snowflake", "Terraform", "Kubernetes"
-  ]
+  const cloudExperienceList = ['AWS', 'Snowflake', 'Terraform', 'Kubernetes'];
   return (
-    <section id='experience'>
+    <section id="experience">
       <h2>My Experience</h2>
       <div className="experience__scroll">
-        <div className='container experience__container'>
-          <div className='experience__frontend'>
+        <div className="container experience__container">
+          <div className="experience__frontend">
             <h3>Frontend Development</h3>
-            <div className='experience__content'>
-              {frontendExperienceList.map((data)=>{
+            <div className="experience__content">
+              {frontendExperienceList.map((data) => {
                 return (
-                  <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div><h4>{data}</h4>
-                </div>
-              </article>
-                )
+                  <article className="experience__details">
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{data}</h4>
+                    </div>
+                  </article>
+                );
               })}
             </div>
           </div>
-          <div className='experience__backend'>
+          <div className="experience__backend">
             <h3>Backend Development</h3>
-            <div className='experience__content'>
-              {backendExperienceList.map((data)=>{
+            <div className="experience__content">
+              {backendExperienceList.map((data) => {
                 return (
-                  <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div><h4>{data}</h4>
-                </div>
-              </article>
-                )
+                  <article className="experience__details">
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{data}</h4>
+                    </div>
+                  </article>
+                );
               })}
             </div>
           </div>
-          <div className='experience__backend'>
+          <div className="experience__backend">
             <h3>Cloud Architecture</h3>
-            <div className='experience__content'>
-              {cloudExperienceList.map((data)=>{
+            <div className="experience__content">
+              {cloudExperienceList.map((data) => {
                 return (
-                  <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div><h4>{data}</h4>
-                </div>
-              </article>
-                )
+                  <article className="experience__details">
+                    <BsPatchCheckFill className="experience__details-icon" />
+                    <div>
+                      <h4>{data}</h4>
+                    </div>
+                  </article>
+                );
               })}
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
