@@ -7,7 +7,7 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
 
-  const yearsOfExp = new Date().getFullYear() - 2019;
+ const yearsOfExp = new Date().getFullYear() - 2022;
   return (
     <section id='about'>
       <div className='container about__container'>

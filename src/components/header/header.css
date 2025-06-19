@@ -13,10 +13,11 @@ header {
 /* ============CTA============ */
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* ============Socials============ */
@@ -74,7 +75,13 @@ header {
 
 @media screen and (max-width: 4024px) {
     header {
-        height: 35vh;
+        height: 45vh;
+        padding-top: 0rem;
+    }
+    
+    .cta {
+        margin-top: 2rem;
+        gap: 1rem;
     }
 }
 
@@ -83,5 +90,18 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding-top: 4rem;
+    }
+    
+    .cta {
+        margin-top: 2rem;
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta .btn {
+        min-width: 140px;
+        text-align: center;
     }
 }

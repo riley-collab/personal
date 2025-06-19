@@ -12,7 +12,6 @@ const Contact = () => {
 
   const handleButtonClick = () => {
     setIsAlertVisible(true);
-    console.log("test")
 
     setTimeout(() => {
       setIsAlertVisible(false)

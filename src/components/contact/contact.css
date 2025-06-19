@@ -37,6 +37,13 @@
     font-size: 0.8rem;
 }
 
+.contact__option h5 {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    white-space: normal;
+}
+
 /* ====FORM========= */
 
 form {

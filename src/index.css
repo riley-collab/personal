@@ -67,7 +67,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 
 section>h2,
@@ -137,13 +137,18 @@ img {
 }
 /*  ======= Media Queries (small devices) ================== */
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+        padding: 20px;
     }
 
     section > h2{
         margin-bottom: 2rem;
     }
-
+    
+    .btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
 }
