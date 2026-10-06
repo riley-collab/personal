@@ -148,7 +148,7 @@ export const featuredProjects = [
     links: [{ label: 'Visit itsrevtime.com', href: 'https://itsrevtime.com' }],
   },
   {
-    title: 'FoodLabel',
+    title: 'AI Compliance Platform',
     kind: 'AI compliance platform · Contributor',
     description:
       'An AI-assisted platform that takes Canadian and US food & beverage brands from recipe to a compliant, print-ready label: nutrition facts, label design and automated regulatory findings reviewed by a human. I built the pay-as-you-go billing and the team review workflow on top of the compliance engine.',
