@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riley Morris | Software Engineer</title>
+    <meta
+      name="description"
+      content="Riley Morris is a software engineer in Canada building web applications, back-end systems and AI-powered tools."
+    />
+    <link rel="canonical" href="https://riley-collab.github.io/personal/" />
+    <link rel="icon" href="%BASE_URL%favicon.ico" />
+    <meta name="theme-color" content="#0f1419" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Riley Morris | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Web applications, back-end systems and AI-powered tools."
+    />
+    <meta property="og:url" content="https://riley-collab.github.io/personal/" />
+    <meta property="og:image" content="https://riley-collab.github.io/personal/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Riley Morris",
+        "jobTitle": "Software Engineer",
+        
+        "alumniOf": "University of Toronto",
+        "url": "https://riley-collab.github.io/personal/",
+        "sameAs": [
+          "https://www.linkedin.com/in/riley1morris",
+          "https://github.com/riley-collab"
+        ]
+      }
+    </script>
+
+    <script>
+      // Apply the saved or system theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('theme');
+        if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.dataset.theme = t;
+      } catch (e) {
+        document.documentElement.dataset.theme = 'dark';
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

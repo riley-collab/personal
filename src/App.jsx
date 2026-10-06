@@ -1,24 +1,28 @@
-import React from 'react';
-import Header from './components/header/Header';
-import About from './components/about/About';
-import Nav from './components/nav/Nav';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Carousel from './components/carousel/Carousel';
+import Nav from '@/components/Nav';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Nav />
+const App = () => (
+  <>
+    <a href="#main" className="skip-link">
+      Skip to content
+    </a>
+    <Nav />
+    <main id="main">
+      <Hero />
       <About />
       <Experience />
-      <Carousel />
+      <Skills />
+      <Projects />
       <Contact />
-      <Footer />
-    </>
-  );
-};
+    </main>
+    <Footer />
+  </>
+);
 
 export default App;
