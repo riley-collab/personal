@@ -18,7 +18,6 @@ const About = () => (
         alt="Portrait of Riley Morris smiling, leaning on a railing"
         width="360"
         height="450"
-        loading="lazy"
       />
       <div>
         <h2>About</h2>
@@ -30,11 +29,10 @@ const About = () => (
           software.
         </p>
         <p>
-          Currently I’m at Avanade, working on the Microsoft Fabric UX project,
-          where I ship user-facing features, take on-call, and have built AI
-          agents and Copilot-driven workflows that save the team time. Before
-          that I built GenAI and ML tooling for Sanofi’s AI Center of
-          Excellence.
+          Recently I’ve been building user-facing features for enterprise
+          products, taking on-call, and creating AI agents and Copilot-driven
+          workflows that save teams time. Before that I built GenAI and ML
+          tooling for Sanofi’s AI Center of Excellence.
         </p>
         <p>
           Outside of work I code side projects, and I’m into hiking, cars,

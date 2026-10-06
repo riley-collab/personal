@@ -12,7 +12,7 @@ const Projects = () => (
             key={p.title}
             className={`featured__item${p.image ? ' has-image' : ''}`}
           >
-            {p.image && <img src={p.image} alt={p.imageAlt} loading="lazy" />}
+            {p.image && <img src={p.image} alt={p.imageAlt} />}
             <div className="featured__body">
               <p className="eyebrow">{p.kind}</p>
               <h3>{p.title}</h3>
@@ -47,7 +47,7 @@ const Projects = () => (
       <div className="grid">
         {projects.map((p) => (
           <article key={p.title} className="card project">
-            <img src={p.image} alt="" loading="lazy" />
+            <img src={p.image} alt="" />
             <h4>{p.title}</h4>
             <p>{p.description}</p>
             {p.github && (

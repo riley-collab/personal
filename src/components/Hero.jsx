@@ -10,9 +10,9 @@ const Hero = () => (
         Hi, I’m <span className="accent">{profile.name}</span>.
       </h1>
       <p className="hero__lead">
-        I build web applications, back-end systems and AI-powered tools. Right
-        now I’m at Avanade shipping features for Microsoft Fabric, and on the
-        side I build products like{' '}
+        I build web applications, back-end systems and AI-powered tools, and I
+        like taking products from idea to something people use. Recently I’ve
+        been building products like{' '}
         <a href="https://itsrevtime.com" target="_blank" rel="noreferrer">
           itsRevTime
         </a>
