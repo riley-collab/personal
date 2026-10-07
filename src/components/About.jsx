@@ -26,7 +26,8 @@ const About = () => (
           from idea to something people actually use. I’ve spent the last{' '}
           {years} years building web applications, back-end systems and data
           workflows across healthtech, high-frequency trading and enterprise
-          software.
+          software. I studied Electrical &amp; Computer Engineering at the
+          University of Toronto.
         </p>
         <p>
           Recently I’ve been building user-facing features for enterprise
