@@ -5,6 +5,7 @@ import { profile } from '@/data';
 const links = [
   ['about', 'About'],
   ['experience', 'Experience'],
+  ['education', 'Education'],
   ['skills', 'Skills'],
   ['projects', 'Projects'],
   ['contact', 'Contact'],

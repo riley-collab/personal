@@ -2,7 +2,7 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import { featuredProjects, projects } from '@/data';
 
 const Projects = () => (
-  <section id="projects" className="section section--alt">
+  <section id="projects" className="section">
     <div className="container">
       <h2>Projects</h2>
 
