@@ -1,7 +1,7 @@
 import { skills } from '@/data';
 
 const Skills = () => (
-  <section id="skills" className="section">
+  <section id="skills" className="section section--alt">
     <div className="container">
       <h2>Skills</h2>
       <div className="skills">
