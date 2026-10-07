@@ -76,6 +76,13 @@ export const earlier = [
   },
 ];
 
+export const education = {
+  degree: 'Bachelor of Applied Science, Electrical & Computer Engineering',
+  school: 'University of Toronto',
+  date: 'June 2022',
+  details: 'Minor in Business, with Leadership & Communications certificates.',
+};
+
 export const skills = [
   {
     group: 'Frontend',

@@ -1,4 +1,4 @@
-import { jobs, earlier } from '@/data';
+import { jobs, earlier, education } from '@/data';
 
 const Experience = () => (
   <section id="experience" className="section section--alt">
@@ -36,6 +36,15 @@ const Experience = () => (
           </article>
         ))}
       </div>
+
+      <h3 className="subhead">Education</h3>
+      <article className="card">
+        <h4>{education.degree}</h4>
+        <p className="muted">
+          {education.school} · {education.date}
+        </p>
+        <p>{education.details}</p>
+      </article>
     </div>
   </section>
 );
