@@ -1,12 +1,12 @@
 # Riley Morris — personal site
 
-Built with Vite and React, deployed to GitHub Pages at https://riley-collab.github.io/personal/.
+Built with Vite and React, deployed to GitHub Pages at https://riley-collab.github.io/.
 
 ## Develop
 
 ```sh
 npm install
-npm run dev      # http://localhost:5173/personal/
+npm run dev      # http://localhost:5173/
 npm run build    # production build into dist/
 npm run format   # prettier
 ```
