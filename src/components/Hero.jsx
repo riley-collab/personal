@@ -18,6 +18,9 @@ const Hero = () => (
         </a>
         .
       </p>
+      <p className="hero__fun">
+        Off the clock: autocross, obstacle races, basketball, hiking and travel.
+      </p>
       <div className="hero__actions">
         <a href="#contact" className="btn btn--primary">
           Get in touch

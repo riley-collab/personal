@@ -36,8 +36,8 @@ const About = () => (
           tooling for Sanofi’s AI Center of Excellence.
         </p>
         <p>
-          Outside of work I code side projects, and I’m into hiking, cars,
-          racing, volleyball, basketball and video games.
+          Away from the keyboard you’ll usually find me at a racetrack, on a
+          trail or on the court. <a href="#life">More on that below.</a>
         </p>
         <dl className="stats">
           {stats.map(([n, label]) => (

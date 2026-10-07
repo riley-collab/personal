@@ -545,3 +545,68 @@ ol {
     transition: none !important;
   }
 }
+
+/* Mobile menu */
+.nav__toggle {
+  display: none;
+}
+
+/* Personality */
+.hero__fun {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.lead {
+  max-width: 40rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+.life {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.life__icon {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 0.9rem;
+}
+.life__also {
+  margin: 1.5rem 0 0;
+}
+
+@media (max-width: 860px) {
+  .nav__toggle {
+    display: grid;
+  }
+  .nav__links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem 1rem 1rem;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow);
+  }
+  .nav--open .nav__links {
+    display: flex;
+  }
+  .nav__links a {
+    padding: 0.75rem 0.5rem;
+    font-size: 1.05rem;
+  }
+  .life {
+    grid-template-columns: 1fr;
+  }
+}

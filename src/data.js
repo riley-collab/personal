@@ -210,3 +210,33 @@ export const projects = [
     github: 'https://github.com/SanofiRileyMorris/MovieRatingReactApp',
   },
 ];
+
+export const interests = [
+  {
+    icon: 'racing',
+    title: 'Autosports',
+    text: 'Car racing and autocross are where my obsession with cars gets to run wild: precision, car control and chasing tenths of a second. It’s the same energy behind itsRevTime, my car newsletter.',
+  },
+  {
+    icon: 'compete',
+    title: 'Physical competitions',
+    text: 'I love testing my fitness against the clock and the course. Hyrox, Tough Mudder and Spartan Race give me something to train for, and a good reason to push past what feels comfortable.',
+  },
+  {
+    icon: 'basketball',
+    title: 'Basketball',
+    text: 'Pickup games are my favourite way to switch off after a day at the screen: fast, competitive and all about teamwork.',
+  },
+  {
+    icon: 'hiking',
+    title: 'Hiking',
+    text: 'A good trail is how I reset. Fresh air, a long climb and a view at the top beat any standing desk.',
+  },
+  {
+    icon: 'travel',
+    title: 'Travelling',
+    text: 'I like seeing new places, trying new food and learning how other people live, work and build things.',
+  },
+];
+
+export const alsoInto = ['Volleyball', 'Video games'];
